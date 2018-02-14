@@ -2410,7 +2410,7 @@ Other Style Guides
   <a name="naming--leading-underscore"></a><a name="22.4"></a>
   - [22.4](#naming--leading-underscore) Use a single leading underscore to indicate a private method/variable. Do not use trailing or double-leading underscores. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html) jscs: [`disallowDanglingUnderscores`](http://jscs.info/rule/disallowDanglingUnderscores)
 
-    > Why? JavaScript does not have the concept of privacy in terms of properties or methods. Using a leading underscore is a common convention to mean “private”. Because we're not publishing a public JS API, it's a useful convention. Warning: This convention might lead developers to wrongly think that a change won't count as breaking, or that tests aren't needed.
+    > Why? JavaScript does not have the concept of privacy in terms of properties or methods. Using a leading underscore is a common convention to mean “private”. Because we're not publishing a public JS API, it's a useful convention.
 
     ```javascript
     // bad
